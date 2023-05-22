@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { addTodo, deleteTodo, toggleTodo } from "./redux/TodoSlice";
+import { addTodo, deleteTodo, toggleTodo } from "../redux/TodoSlice";
 import "./todo.css";
 
 const Todo = () => {
